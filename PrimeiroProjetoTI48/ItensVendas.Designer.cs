@@ -86,7 +86,7 @@
             // lblTotalVenda
             // 
             this.lblTotalVenda.AutoSize = true;
-            this.lblTotalVenda.Location = new System.Drawing.Point(32, 178);
+            this.lblTotalVenda.Location = new System.Drawing.Point(32, 183);
             this.lblTotalVenda.Name = "lblTotalVenda";
             this.lblTotalVenda.Size = new System.Drawing.Size(68, 13);
             this.lblTotalVenda.TabIndex = 12;
@@ -95,17 +95,17 @@
             // cmbCliente
             // 
             this.cmbCliente.FormattingEnabled = true;
-            this.cmbCliente.Location = new System.Drawing.Point(23, 244);
+            this.cmbCliente.Location = new System.Drawing.Point(131, 71);
             this.cmbCliente.Name = "cmbCliente";
-            this.cmbCliente.Size = new System.Drawing.Size(185, 21);
+            this.cmbCliente.Size = new System.Drawing.Size(164, 21);
             this.cmbCliente.TabIndex = 11;
             // 
             // cmbProduto
             // 
             this.cmbProduto.FormattingEnabled = true;
-            this.cmbProduto.Location = new System.Drawing.Point(214, 244);
+            this.cmbProduto.Location = new System.Drawing.Point(131, 99);
             this.cmbProduto.Name = "cmbProduto";
-            this.cmbProduto.Size = new System.Drawing.Size(176, 21);
+            this.cmbProduto.Size = new System.Drawing.Size(164, 21);
             this.cmbProduto.TabIndex = 10;
             this.cmbProduto.SelectedIndexChanged += new System.EventHandler(this.cmbProduto_SelectedIndexChanged);
             // 
@@ -180,7 +180,7 @@
             // 
             // txtQuantidade
             // 
-            this.txtQuantidade.Location = new System.Drawing.Point(131, 117);
+            this.txtQuantidade.Location = new System.Drawing.Point(131, 124);
             this.txtQuantidade.Name = "txtQuantidade";
             this.txtQuantidade.Size = new System.Drawing.Size(164, 20);
             this.txtQuantidade.TabIndex = 1;
@@ -188,7 +188,7 @@
             // 
             // txtTotal
             // 
-            this.txtTotal.Location = new System.Drawing.Point(112, 150);
+            this.txtTotal.Location = new System.Drawing.Point(131, 146);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(164, 20);
             this.txtTotal.TabIndex = 0;
