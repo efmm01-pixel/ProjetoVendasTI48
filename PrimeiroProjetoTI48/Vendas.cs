@@ -43,5 +43,11 @@ namespace PrimeiroProjetoTI48
             CadProdutos frm = new CadProdutos();
             frm.Show();
         }
+
+        private void novaVendaToolStripMenuItem_Click(object sender, EventArgs e) 
+        {
+            ItensVendas frm = new ItensVendas();
+            frm.ShowDialog();
+        }
     }
 }

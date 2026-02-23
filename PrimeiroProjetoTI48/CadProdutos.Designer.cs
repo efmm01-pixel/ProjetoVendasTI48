@@ -161,7 +161,7 @@
             this.btnConsultar.UseVisualStyleBackColor = true;
             this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click_1);
             // 
-            // produtos
+            // CadProdutos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -181,8 +181,8 @@
             this.Controls.Add(this.labelID);
             this.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Name = "produtos";
-            this.Text = "produtos";
+            this.Name = "CadProdutos";
+            this.Text = "Produtos";
             ((System.ComponentModel.ISupportInitialize)(this.GridProduto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

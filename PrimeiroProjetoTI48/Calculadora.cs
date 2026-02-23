@@ -148,10 +148,10 @@ namespace PrimeiroProjetoTI48
 
         private void btnNumero_Click(object sender, EventArgs e)
         {
-            // 1. Faz o cast do remetente (sender) para o tipo Button.
+            
             Button botao = (Button)sender;
 
-            // 2. Anexa o texto (o número) do botão ao texto atual do display.
+            
             txtDisplay.Text += botao.Text;
             valor1 = decimal.Parse(txtDisplay.Text);
         }
