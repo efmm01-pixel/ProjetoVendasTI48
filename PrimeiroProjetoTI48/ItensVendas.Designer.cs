@@ -44,6 +44,7 @@
             this.lblVendaId.Location = new System.Drawing.Point(32, 47);
             this.lblVendaId.Name = "lblVendaId";
             this.lblVendaId.Size = new System.Drawing.Size(66, 13);
+            this.lblVendaId.TabIndex = 17;
             this.lblVendaId.Text = "ID da venda";
             // 
             // lblCliente
@@ -52,6 +53,7 @@
             this.lblCliente.Location = new System.Drawing.Point(32, 74);
             this.lblCliente.Name = "lblCliente";
             this.lblCliente.Size = new System.Drawing.Size(39, 13);
+            this.lblCliente.TabIndex = 16;
             this.lblCliente.Text = "Cliente";
             // 
             // lblProduto
@@ -60,6 +62,7 @@
             this.lblProduto.Location = new System.Drawing.Point(32, 99);
             this.lblProduto.Name = "lblProduto";
             this.lblProduto.Size = new System.Drawing.Size(44, 13);
+            this.lblProduto.TabIndex = 15;
             this.lblProduto.Text = "Produto";
             // 
             // lblQuantidade
@@ -68,6 +71,7 @@
             this.lblQuantidade.Location = new System.Drawing.Point(32, 124);
             this.lblQuantidade.Name = "lblQuantidade";
             this.lblQuantidade.Size = new System.Drawing.Size(65, 13);
+            this.lblQuantidade.TabIndex = 14;
             this.lblQuantidade.Text = "Quantidade:";
             // 
             // lblTotal
@@ -76,6 +80,7 @@
             this.lblTotal.Location = new System.Drawing.Point(32, 153);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(34, 13);
+            this.lblTotal.TabIndex = 13;
             this.lblTotal.Text = "Total:";
             // 
             // lblTotalVenda
@@ -84,74 +89,84 @@
             this.lblTotalVenda.Location = new System.Drawing.Point(32, 178);
             this.lblTotalVenda.Name = "lblTotalVenda";
             this.lblTotalVenda.Size = new System.Drawing.Size(68, 13);
+            this.lblTotalVenda.TabIndex = 12;
             this.lblTotalVenda.Text = "Total Venda:";
             // 
             // cmbCliente
             // 
             this.cmbCliente.FormattingEnabled = true;
-            this.cmbCliente.Location = new System.Drawing.Point(35, 243);
+            this.cmbCliente.Location = new System.Drawing.Point(23, 244);
             this.cmbCliente.Name = "cmbCliente";
-            this.cmbCliente.Size = new System.Drawing.Size(121, 21);
+            this.cmbCliente.Size = new System.Drawing.Size(185, 21);
+            this.cmbCliente.TabIndex = 11;
             // 
             // cmbProduto
             // 
             this.cmbProduto.FormattingEnabled = true;
-            this.cmbProduto.Location = new System.Drawing.Point(219, 243);
+            this.cmbProduto.Location = new System.Drawing.Point(214, 244);
             this.cmbProduto.Name = "cmbProduto";
-            this.cmbProduto.Size = new System.Drawing.Size(121, 21);
+            this.cmbProduto.Size = new System.Drawing.Size(176, 21);
+            this.cmbProduto.TabIndex = 10;
             this.cmbProduto.SelectedIndexChanged += new System.EventHandler(this.cmbProduto_SelectedIndexChanged);
             // 
             // dtpDataVenda
             // 
-            this.dtpDataVenda.Location = new System.Drawing.Point(535, 12);
+            this.dtpDataVenda.Location = new System.Drawing.Point(357, 40);
             this.dtpDataVenda.Name = "dtpDataVenda";
-            this.dtpDataVenda.Size = new System.Drawing.Size(253, 20);
+            this.dtpDataVenda.Size = new System.Drawing.Size(214, 20);
+            this.dtpDataVenda.TabIndex = 9;
             // 
             // dgItensVenda
             // 
             this.dgItensVenda.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgItensVenda.Location = new System.Drawing.Point(23, 288);
+            this.dgItensVenda.Location = new System.Drawing.Point(23, 271);
             this.dgItensVenda.Name = "dgItensVenda";
             this.dgItensVenda.Size = new System.Drawing.Size(240, 150);
+            this.dgItensVenda.TabIndex = 8;
             this.dgItensVenda.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgItensVenda_CellContentClick);
             // 
             // btnNovaVenda
             // 
-            this.btnNovaVenda.Location = new System.Drawing.Point(299, 288);
+            this.btnNovaVenda.Location = new System.Drawing.Point(269, 271);
             this.btnNovaVenda.Name = "btnNovaVenda";
             this.btnNovaVenda.Size = new System.Drawing.Size(121, 23);
+            this.btnNovaVenda.TabIndex = 7;
             this.btnNovaVenda.Text = "Nova Venda";
             this.btnNovaVenda.Click += new System.EventHandler(this.btnNovaVenda_Click);
             // 
             // btnAdicionarItem
             // 
-            this.btnAdicionarItem.Location = new System.Drawing.Point(299, 351);
+            this.btnAdicionarItem.Location = new System.Drawing.Point(269, 300);
             this.btnAdicionarItem.Name = "btnAdicionarItem";
             this.btnAdicionarItem.Size = new System.Drawing.Size(121, 23);
+            this.btnAdicionarItem.TabIndex = 6;
             this.btnAdicionarItem.Text = "Adicionar Item";
             this.btnAdicionarItem.Click += new System.EventHandler(this.btnAdicionarItem_Click);
             // 
             // btnFinalizarVenda
             // 
-            this.btnFinalizarVenda.Location = new System.Drawing.Point(426, 351);
+            this.btnFinalizarVenda.Location = new System.Drawing.Point(269, 358);
             this.btnFinalizarVenda.Name = "btnFinalizarVenda";
             this.btnFinalizarVenda.Size = new System.Drawing.Size(121, 23);
+            this.btnFinalizarVenda.TabIndex = 5;
             this.btnFinalizarVenda.Text = "Finalizar Venda";
             this.btnFinalizarVenda.Click += new System.EventHandler(this.btnFinalizarVenda_Click);
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(426, 288);
+            this.btnCancelar.Location = new System.Drawing.Point(269, 387);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(121, 23);
+            this.btnCancelar.TabIndex = 4;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnRemoverItem
             // 
-            this.btnRemoverItem.Location = new System.Drawing.Point(361, 399);
+            this.btnRemoverItem.Location = new System.Drawing.Point(269, 329);
             this.btnRemoverItem.Name = "btnRemoverItem";
             this.btnRemoverItem.Size = new System.Drawing.Size(121, 23);
+            this.btnRemoverItem.TabIndex = 3;
             this.btnRemoverItem.Text = "Remover item";
             this.btnRemoverItem.Click += new System.EventHandler(this.btnRemoverItem_Click);
             // 
@@ -160,6 +175,7 @@
             this.txtVendaId.Location = new System.Drawing.Point(131, 44);
             this.txtVendaId.Name = "txtVendaId";
             this.txtVendaId.Size = new System.Drawing.Size(164, 20);
+            this.txtVendaId.TabIndex = 2;
             this.txtVendaId.TextChanged += new System.EventHandler(this.txtVendaId_TextChanged);
             // 
             // txtQuantidade
@@ -167,6 +183,7 @@
             this.txtQuantidade.Location = new System.Drawing.Point(131, 117);
             this.txtQuantidade.Name = "txtQuantidade";
             this.txtQuantidade.Size = new System.Drawing.Size(164, 20);
+            this.txtQuantidade.TabIndex = 1;
             this.txtQuantidade.TextChanged += new System.EventHandler(this.txtQuantidade_TextChanged);
             // 
             // txtTotal
@@ -174,12 +191,13 @@
             this.txtTotal.Location = new System.Drawing.Point(112, 150);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(164, 20);
+            this.txtTotal.TabIndex = 0;
             // 
             // ItensVendas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(580, 450);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.txtQuantidade);
             this.Controls.Add(this.txtVendaId);
@@ -204,6 +222,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgItensVenda)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion

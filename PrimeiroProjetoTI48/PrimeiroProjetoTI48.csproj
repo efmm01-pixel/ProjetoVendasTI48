@@ -89,6 +89,9 @@
     <EmbeddedResource Include="CadProdutos.resx">
       <DependentUpon>CadProdutos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ItensVendas.resx">
+      <DependentUpon>ItensVendas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
