@@ -175,7 +175,7 @@ namespace PrimeiroProjetoTI48
 
         private void btnRemoverItem_Click(object sender, EventArgs e)
         {
-            if (dgItensVenda.SelectedRows.Count > 0)
+            if (dgItensVenda.CurrentRow != null && dgItensVenda.CurrentRow.Index >= 0)
             {
                 DialogResult resultado = MessageBox.Show(
                     "Deseja remover este item?",
@@ -186,7 +186,7 @@ namespace PrimeiroProjetoTI48
 
                 if (resultado == DialogResult.Yes)
                 {
-                    dgItensVenda.Rows.RemoveAt(dgItensVenda.SelectedRows[0].Index);
+                    dtItens.Rows[dgItensVenda.CurrentRow.Index].Delete();
                     AtualizarTotalVenda();
                     MessageBox.Show("Item removido!");
                 }
@@ -249,10 +249,10 @@ namespace PrimeiroProjetoTI48
                         MessageBox.Show($"Venda #{vendaId} finalizada com sucesso!");
                         LimparCampos();
                     }
-                    catch (Exception ex)
+                    catch (Exception)
                     {
                         transaction.Rollback();
-                        throw ex;
+                        throw;
                     }
                 }
             }
